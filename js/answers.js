@@ -19,8 +19,8 @@ const SCORE_THRESHOLD = {
 };
 
 const PROMPTS_AND_IMAGES = {
-    0: ["ყაველაშვილის დიპლომს", "url('imgs/yavelashvili.jpg')"],
-    1: ["მტრედის ბუდეს", "url('imgs/kobaxidze.jpg')"],
+    0: ["ყაველაშვილის დიპლომს", `url(${document.getElementsByClassName("__ruaq-image")[0].href})`],
+    1: ["მტრედის ბუდეს", `url(${document.getElementsByClassName("__ruaq-image")[1].href})`],
 };
 
 const STAGE_COUNT = 2;
