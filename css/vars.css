@@ -1,0 +1,10 @@
+:root {
+    --ruaqb-image-grid-size: 16rem;
+    --ruaqb-image-cell-count: 4;
+
+    --ruaq-blue: #4285de;
+    --ruaq-gray: #444746;
+    --ruaq-light-grey: #d3d3d3;
+    
+    --ruaq-green: rgb(21, 145, 21);
+}

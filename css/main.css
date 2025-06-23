@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.ruaq-checkmark-and-question {
+    width: 21rem;
+    height: 6rem;
+
+    background-color: #f9f9f9;
+    border: 0.1rem var(--ruaq-light-grey) solid;
+}
+
+.ruaq-checkmark {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    left: 1.3rem;
+ 
+    background-color: white;
+    border: 0.2rem var(--ruaq-light-grey) solid;
+}
+
+.ruaq-checkmark:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.ruaq-logo {
+    color: blue;
+    font-size: 4rem;
+    
+    left: 80%;
+    top: 45%;
+}
+
+.ruaq-logo-text {
+    color: black;
+    font-size: 0.8rem;
+    left: 76%;
+    top: 80%;
+}
+
+.ruaqb-question {
+    font-size: 0.8rem;
+    max-width: 16rem;
+
+    font-family: 'ArialGEO';
+    background-color: var(--ruaq-blue);
+    color: white;
+}
+
+.ruaqb-question > * {
+    margin-bottom: 5%;
+}
+
+.ruaq-box {
+    position: fixed;
+    z-index: 2;
+
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 0.2rem var(--ruaq-light-grey) solid;
+    box-shadow:
+      0 0 0 0.2rem white,
+      0 0 0 0.4rem var(--ruaq-light-grey);
+
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+}
+
+.ruaq-question {
+    left: 4.3rem;
+}
+
+.ruaqb-submit {
+    padding: 0.3rem;
+}
+
+.ruaqb-submit-button {
+    background-color: var(--ruaq-blue);
+    color:white;
+
+    font-size: 1.1rem;
+    
+    border: none;
+    padding: 0.3rem;
+}
+
+.ruaqb-submit-button:hover {
+    cursor: pointer;
+    
+    animation: -ruaqb-submit-button-hover 1s;
+    -webkit-animation: -ruaqb-submit-button-hover 1s;
+    -moz-animation: -ruaqb-submit-button-hover 1s;
+    -o-animation: -ruaqb-submit-button-hover 1s; 
+}
+
+.tick {
+    position: absolute;
+
+    color: var(--ruaq-green);
+
+    left: 1.3rem;
+    top: 0.1rem;
+
+    font-size: 2.5rem;
+}

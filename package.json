@@ -1,0 +1,22 @@
+{
+  "name": "qocixarrr",
+  "version": "1.0.0",
+  "description": "QOCI XOM AR XAR",
+  "scripts": {
+    "build": "node node_modules/parcel/lib/bin.js build --log-level verbose --no-source-maps --detailed-report 1 index.html",
+    "build_gh": "node node_modules/parcel/lib/bin.js build --log-level verbose --no-source-maps --detailed-report 1 --public-url '.' index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datawater/qocixarrr.git"
+  },
+  "author": "datawater",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/datawater/qocixarrr/issues"
+  },
+  "homepage": "https://github.com/datawater/qocixarrr#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}

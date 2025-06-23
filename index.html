@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QOCI XOM AR XAR?</title>
+
+        <link rel="prefetch" href="fonts/arial_geo.ttf">
+        <link rel="prefetch" href="imgs/yavelashvili.jpg">
+        <link rel="prefetch" href="imgs/kobaxidze.jpg">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/vars.css">
+        <link rel="stylesheet" href="css/classes.css">
+        <link rel="stylesheet" href="css/keyframes.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/ruaqb-image-grid.css">
+
+        <script src="js/answers.js"></script>
+    </head>
+
+    <body>
+        <div class="background" onclick="background_onclick()"></div>
+
+        <div class="r-u-a-qoci no-user-select double-center">
+            <div class="ruaq-checkmark-and-question">
+                <div id="ruaq-checkmark-box">
+                    <div class="ruaq-checkmark vertical-center" id="ruaq-checkmark" onclick="ruaq_checkmark_click()"></div>
+                </div>
+                <div class="ruaq-question vertical-center">მე არ ვარ ქოცი</div>
+                <div class="ruaq-logo vertical-center">λ</div>
+                <div class="ruaq-logo-text vertical-center">არა-ქოცს</div>
+            </div>
+        </div>
+        
+        <div class="ruaq-box hidden" id="ruaq-box">
+            <div class="ruaqb-question">
+                <p>მონიშნე ყველა ფოტო რომელიც შეიცავს</p>
+                <h3 class="ruaqb-question-prompt" id="ruaqb-question-prompt"></h3>
+                <p>დააჭირე 'შემდეგს' ან 'დადასტურებას' ყოველი მათგანის მონიშვნის შემდეგ.</p>
+            </div>
+
+            <div class="ruaqb-image-grid">
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(1)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(2)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(3)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(4)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(5)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(6)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(7)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(8)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(9)" ></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(10)"></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(11)"></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(12)"></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(13)"></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(14)"></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(15)"></div>
+                <div class="ruaqb-image-cell" onclick="ruaq_image_cell_click(16)"></div>
+            </div>
+            
+            <div class="ruaqb-submit">
+                <button class="ruaqb-submit-button" id="ruaqb-submit-button" onclick="ruaqb_button_onclick()">შემდეგი</button>
+            </div>
+        </div>
+    </body>
+
+    <script src="js/main.js"></script>
+</html>
